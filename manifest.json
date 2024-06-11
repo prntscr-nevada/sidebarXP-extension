@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "ChatGPT Sidebar",
+    "version": "1.0",
+    "description": "Opens chatgpt.com in the sidebar.",
+    "sidebar_action": {
+      "default_title": "ChatGPT",
+      "default_panel": "sidebar.html"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+      ],
+      "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+  }
