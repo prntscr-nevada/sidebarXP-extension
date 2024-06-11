@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "ChatGPT Sidebar",
+    "name": "sidebarXP",
     "version": "1.0",
-    "description": "Opens chatgpt.com in the sidebar.",
+    "description": "Opens site in the sidebar.",
     "sidebar_action": {
-      "default_title": "ChatGPT",
+      "default_title": "sidebarXP",
       "default_panel": "sidebar.html"
     },
     "permissions": [
