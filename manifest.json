@@ -1,19 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "sidebarXP",
-    "version": "1.0",
-    "description": "Opens site in the sidebar.",
-    "sidebar_action": {
-      "default_title": "sidebarXP",
-      "default_panel": "sidebar.html"
-    },
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "<all_urls>"
-      ],
-      "background": {
-        "scripts": ["background.js"],
-        "persistent": true
-    }
+  "manifest_version": 2,
+  "name": "sidebarXP",
+  "version": "1.0",
+  "description": "Opens site in the sidebar.",
+  "sidebar_action": {
+    "default_title": "sidebarXP",
+    "default_panel": "sidebar.html",
+    "browser_style": false
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
   }
+}
